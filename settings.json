@@ -1,0 +1,92 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "vscode-edge-devtools.mirrorEdits": true,
+    "editor.inlineSuggest.enabled": true,
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "One Dark Pro Flat",
+    "editor.wordWrap": "on",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "update.showReleaseNotes": false,
+    "editor.lineNumbers": "relative",
+    "editor.cursorBlinking": "expand",
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "vim.commandLineModeKeyBindings": [],
+    "vim.handleKeys": {
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-z>": false,
+        "<C-f>": false,
+        "<C-b>": false
+    },
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.scrollbar.vertical": "hidden",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.menuBarVisibility": "compact",
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "css.validate": false,
+    "settingsSync.ignoredExtensions": [],
+    "settingsSync.ignoredSettings": [],
+    "accessibility.dimUnfocused.enabled": true,
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true
+    },
+    "files.autoSave": "afterDelay",
+    "workbench.statusBar.visible": false,
+    "editor.largeFileOptimizations": false,
+    "workbench.activityBar.location": "top",
+    "breadcrumbs.enabled": false,
+    "workbench.tree.indent": 12,
+    "workbench.tree.renderIndentGuides": "none",
+    "editor.padding.bottom": 14,
+    "editor.padding.top": 14,
+    "editor.glyphMargin": false,
+    "editor.matchBrackets": "near",
+    "editor.smoothScrolling": true,
+    "workbench.editor.tabActionCloseVisibility": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "update.mode": "manual",
+    "editor.minimap.autohide": true,
+    "workbench.sideBar.location": "right",
+    // "apc.electron": {
+    //   "frame": false,
+    //   "titleBarStyle": "hidden",
+    //   "trafficLightPosition": {
+    //     "x": 9,
+    //     "y": 9
+    //   }
+    // },
+    // "window.titleBarStyle": "native",
+    // "apc.statusBar": {
+    //   "position": "editor-bottom"
+    // },
+    // "apc.activityBar": {
+    //   "position": "top",
+    //   "size": 36
+    // },
+    // "editor.hideCursorInOverviewRuler": true,
+    // "editor.cursorBlinking": "phase",
+    // "editor.cursorSmoothCaretAnimation": "on",
+    // "update.mode": "manual",
+    // "apc.header": {
+    //   "height": 36
+    // }
+}
