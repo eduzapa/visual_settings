@@ -111,5 +111,20 @@
         "key": "ctrl+n",
         "command": "-extension.vim_ctrl+n",
         "when": "editorTextFocus && vim.active && vim.use<C-n> && !inDebugRepl || vim.active && vim.use<C-n> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-n> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
+    },
+    {
+        "key": "f f",
+        "command": "actions.find",
+        "when": "editorTextFocus && !findInputFocussed && vim.mode != 'Insert'"
+    },
+    {
+        "key": "n",
+        "command": "editor.action.nextMatchFindAction",
+        "when": "editorTextFocus && !findInputFocussed && vim.mode != 'Insert'"
+    },
+    {
+        "key": "Enter",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "editorFocus && findInputFocussed && vim.mode != 'Insert'"
     }
 ]
